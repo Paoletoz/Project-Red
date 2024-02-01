@@ -1,0 +1,163 @@
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h1,h2,h3,h4{
+    color: darkred;
+    font-family: 'Nova Square', cursive;
+}
+
+.iconCustom{
+    width: 30vw;
+    height: 25vh;
+}
+
+.main{
+    background-color: rgb(198, 127, 127);
+}
+
+.bgHeaderCustom{
+    
+    background: url(media/mountains.png),
+    linear-gradient(
+    rgba(255, 255, 255, 0.998),
+    rgba(251, 248, 251, 0.574),
+    rgba(223, 221, 223, 0.154)
+    ),
+    url(media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, cover, cover;
+    background-position: bottom left, center, center;
+    height: 100vh;
+} 
+
+h1{
+    margin-top: 400px;
+    letter-spacing: 50px;
+}
+
+i{
+    color: darkred;
+}
+
+.lineCustom{
+    border-bottom: 3px solid darkred;
+    width: 20%;
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+
+.lineCustom::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: whitesmoke;
+    border: 2px solid darkred;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    margin-left: -8px;
+    border-radius: 50%;
+    
+}
+
+.containerDescription{
+    margin-top: 20vh;
+    background: url(./media/trees2.png),  
+    linear-gradient(
+    to bottom,
+    rgba(198, 127, 127, 0.017),
+    rgba(198, 127, 127, 0.147),
+    rgba(198, 127, 127, 0.13)
+    )
+    ;
+    height: 49vh;
+    background-repeat: no-repeat;
+    
+}
+
+.buttonCustom{
+    margin-top: 20vh;
+    background-color: darkred;
+    color: whitesmoke;
+    border: none;
+}
+
+
+.timeline{
+    border-left: 3px solid darkred;
+}
+
+.dotTimeline{
+    position: relative;
+}
+
+.dotTimeline::before{
+    content: "";
+    border-radius: 50%;
+    border: 2px solid darkred;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 11px;
+    left: -21px;
+    background-color: white;
+}
+
+.bgTimeline{
+    margin-top: 10vh;
+    background: url(./media/trees.png),
+    linear-gradient(
+    to bottom,
+    rgba(198, 127, 127, 0.008),
+    rgba(198, 127, 127, 0.093),
+    rgba(198, 127, 127, 0.14)
+    )
+    ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.borderCustom{
+    border: 3px solid darkred;
+    height: 30vh;
+    width: 30vh;
+}
+
+.card{
+    background-color: rgba(198, 127, 127, 0);
+}
+
+.background-card{
+    background-color: rgba(198, 127, 127, 0.113);
+}
+
+.distanza-Inter-foto{
+    padding-bottom: 100px;
+}
+
+.background-custom{
+    background: rgba(198, 127, 127, 0.152);
+}
+
+
+.text-color-footer{
+    color: white;
+}
+
+.background-color-footer{
+    background-color: darkred;
+}
+
+@media screen and (max-width: 400px) {
+
+    .iconCustom{
+        width: 60vw; 
+    }
+    
+    .buttonCustom{
+        margin-top: 10px;
+    }
+    
+}
